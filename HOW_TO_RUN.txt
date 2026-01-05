@@ -1,0 +1,63 @@
+🚀 HOW TO RUN YOUR REACT PORTFOLIO
+
+Your React portfolio has been successfully created! Here's how to run it:
+
+OPTION 1: Using Command Prompt (Recommended)
+1. Press Windows + R
+2. Type "cmd" and press Enter
+3. Navigate to your project folder:
+   cd "C:\Users\MASUDUR RAHMAN\Documents\Projects\portfolio"
+4. Install dependencies:
+   npm install
+5. Start the development server:
+   npm start
+6. Your browser will automatically open to http://localhost:3000
+
+OPTION 2: Using PowerShell (if execution policy allows)
+1. Right-click on "install.bat" and select "Run as administrator"
+2. Or open PowerShell as administrator and run:
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   Then run: .\install.bat
+
+OPTION 3: Manual Steps
+1. Open Command Prompt or PowerShell
+2. Run these commands one by one:
+   npm install
+   npm start
+
+📁 FILES CREATED:
+✅ package.json - Project configuration
+✅ public/index.html - Main HTML file
+✅ src/App.js - Main React component
+✅ src/index.js - React entry point
+✅ src/index.css - Global styles
+✅ src/components/ - All React components
+   ├── Navbar.js - Navigation bar
+   ├── Hero.js - Hero section with intro
+   ├── Skills.js - Skills showcase
+   ├── About.js - About me section
+   ├── Projects.js - Projects grid
+   ├── ProjectDetail.js - Detailed project view
+   ├── Contact.js - Contact form
+   └── ThemeToggle.js - Dark/light theme toggle
+
+🎯 WHAT'S INCLUDED:
+✅ Responsive navigation with mobile menu
+✅ Professional hero section with photo
+✅ Resume download button (ready for your file)
+✅ Social media links (GitHub, LinkedIn, Twitter, Facebook)
+✅ Detailed about section with your story
+✅ Visual skills display with progress bars
+✅ 3 featured projects with detailed pages
+✅ Contact form with email and phone
+✅ Dark/light theme toggle
+✅ Fully responsive design
+✅ Professional animations and effects
+
+🔧 CUSTOMIZATION:
+- Update personal info in Hero.js and About.js
+- Add your real projects in Projects.js
+- Update contact details in Contact.js
+- Add your resume file for download
+
+Once running, visit http://localhost:3000 to see your portfolio!
