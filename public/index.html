@@ -10,8 +10,8 @@
       content="Masudur Rahman - Professional Web Developer Portfolio"
     />
     
-    <!-- Load Tailwind CSS via unpkg (more reliable) -->
-    <script src="https://unpkg.com/tailwindcss-cdn@3.4.0/tailwindcss.js"></script>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         darkMode: 'class',
@@ -24,14 +24,14 @@
               'background-dark': '#0F0F0F',
               'surface-light': '#F8F9FA',
               'surface-dark': '#1A1A1A'
+            },
+            fontFamily: {
+              'poppins': ['Poppins', 'sans-serif']
             }
           }
         }
       }
     </script>
-    
-    <!-- Alternative: Load via CSS link as backup -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">

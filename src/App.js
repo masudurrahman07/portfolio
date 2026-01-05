@@ -35,30 +35,6 @@ function App() {
 
     requestAnimationFrame(raf);
 
-    // Configure Tailwind
-    window.tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            primary: "#FF6B55",
-            "primary-hover": "#E55A45",
-            "background-light": "#F3F4F6",
-            "background-dark": "#0F172A",
-            "surface-light": "#FFFFFF",
-            "surface-dark": "#1E293B",
-          },
-          fontFamily: {
-            display: ["Poppins", "sans-serif"],
-            sans: ["Poppins", "sans-serif"],
-          },
-          borderRadius: {
-            DEFAULT: "0.5rem",
-          },
-        },
-      },
-    };
-
     // Check theme preference
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
